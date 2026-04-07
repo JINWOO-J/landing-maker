@@ -56,6 +56,21 @@ const heroSections: Record<string, React.ComponentType<{ className?: string }>> 
   "sand-dunes": dynamic(() => import("@/themes/sand-dunes/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
   cassette: dynamic(() => import("@/themes/cassette/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
   hologram: dynamic(() => import("@/themes/hologram/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  neubrutalism: dynamic(() => import("@/themes/neubrutalism/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  "bento-grid": dynamic(() => import("@/themes/bento-grid/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  claymorphism: dynamic(() => import("@/themes/claymorphism/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  dopamine: dynamic(() => import("@/themes/dopamine/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  y2k: dynamic(() => import("@/themes/y2k/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  vaporwave: dynamic(() => import("@/themes/vaporwave/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  "grain-film": dynamic(() => import("@/themes/grain-film/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  "noise-gradient": dynamic(() => import("@/themes/noise-gradient/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  liquid: dynamic(() => import("@/themes/liquid/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  collage: dynamic(() => import("@/themes/collage/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  "dark-academia": dynamic(() => import("@/themes/dark-academia/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  bauhaus: dynamic(() => import("@/themes/bauhaus/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  "kinetic-type": dynamic(() => import("@/themes/kinetic-type/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  "parallax-depth": dynamic(() => import("@/themes/parallax-depth/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
+  chalkboard: dynamic(() => import("@/themes/chalkboard/HeroSection"), { ssr: false, loading: () => <HeroLoading /> }),
 };
 
 /* ---------- Dynamic feature cards per theme ---------- */
@@ -92,6 +107,21 @@ const featureCards: Record<string, React.ComponentType<FeatureCardProps>> = {
   "sand-dunes": dynamic(() => import("@/themes/sand-dunes/FeatureCard"), { ssr: false }),
   cassette: dynamic(() => import("@/themes/cassette/FeatureCard"), { ssr: false }),
   hologram: dynamic(() => import("@/themes/hologram/FeatureCard"), { ssr: false }),
+  neubrutalism: dynamic(() => import("@/themes/neubrutalism/FeatureCard"), { ssr: false }),
+  "bento-grid": dynamic(() => import("@/themes/bento-grid/FeatureCard"), { ssr: false }),
+  claymorphism: dynamic(() => import("@/themes/claymorphism/FeatureCard"), { ssr: false }),
+  dopamine: dynamic(() => import("@/themes/dopamine/FeatureCard"), { ssr: false }),
+  y2k: dynamic(() => import("@/themes/y2k/FeatureCard"), { ssr: false }),
+  vaporwave: dynamic(() => import("@/themes/vaporwave/FeatureCard"), { ssr: false }),
+  "grain-film": dynamic(() => import("@/themes/grain-film/FeatureCard"), { ssr: false }),
+  "noise-gradient": dynamic(() => import("@/themes/noise-gradient/FeatureCard"), { ssr: false }),
+  liquid: dynamic(() => import("@/themes/liquid/FeatureCard"), { ssr: false }),
+  collage: dynamic(() => import("@/themes/collage/FeatureCard"), { ssr: false }),
+  "dark-academia": dynamic(() => import("@/themes/dark-academia/FeatureCard"), { ssr: false }),
+  bauhaus: dynamic(() => import("@/themes/bauhaus/FeatureCard"), { ssr: false }),
+  "kinetic-type": dynamic(() => import("@/themes/kinetic-type/FeatureCard"), { ssr: false }),
+  "parallax-depth": dynamic(() => import("@/themes/parallax-depth/FeatureCard"), { ssr: false }),
+  chalkboard: dynamic(() => import("@/themes/chalkboard/FeatureCard"), { ssr: false }),
 };
 
 /* ---------- Main Page ---------- */

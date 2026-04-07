@@ -220,6 +220,21 @@ export const themes: ThemeDefinition[] = [
     preview: "🔮",
     defaultPaletteId: "arctic-cyan",
   },
+  { id: "neubrutalism", name: "Neubrutalism", description: "Bold borders, offset shadows, colorful blocks", preview: "🟨", defaultPaletteId: "monochrome" },
+  { id: "bento-grid", name: "Bento Grid", description: "Apple-style modular grid layout with clean boxes", preview: "🍱", defaultPaletteId: "slate-teal" },
+  { id: "claymorphism", name: "Claymorphism", description: "3D clay look with soft rounded shapes and inner shadows", preview: "🫧", defaultPaletteId: "lavender-dream" },
+  { id: "dopamine", name: "Dopamine", description: "High-saturation vivid colors, maximalist Gen-Z energy", preview: "🌈", defaultPaletteId: "peach-cream" },
+  { id: "y2k", name: "Y2K", description: "2000s nostalgia with chrome, bubbles, and iridescent gradients", preview: "💿", defaultPaletteId: "candy-pop" },
+  { id: "vaporwave", name: "Vaporwave", description: "90s internet aesthetic with pink/purple sunset and grid", preview: "🌅", defaultPaletteId: "synthwave-pink" },
+  { id: "grain-film", name: "Grain Film", description: "Analog film grain texture with muted tones", preview: "🎞️", defaultPaletteId: "copper-rust" },
+  { id: "noise-gradient", name: "Noise Gradient", description: "Grainy textured gradients with color transitions", preview: "🌫️", defaultPaletteId: "violet-pink" },
+  { id: "liquid", name: "Liquid", description: "Organic flowing shapes with morphing blob animations", preview: "💧", defaultPaletteId: "violet-pink" },
+  { id: "collage", name: "Collage", description: "Mixed media scrapbook with torn paper and tape", preview: "📎", defaultPaletteId: "peach-cream" },
+  { id: "dark-academia", name: "Dark Academia", description: "Scholarly vintage with serif fonts and warm dark tones", preview: "📚", defaultPaletteId: "copper-rust" },
+  { id: "bauhaus", name: "Bauhaus", description: "Primary colors, geometric shapes, modernist design", preview: "🔴", defaultPaletteId: "monochrome" },
+  { id: "kinetic-type", name: "Kinetic Type", description: "Large moving typography with motion emphasis", preview: "🔤", defaultPaletteId: "monochrome" },
+  { id: "parallax-depth", name: "Parallax Depth", description: "Layered elements with depth and parallax motion", preview: "🔲", defaultPaletteId: "deep-space" },
+  { id: "chalkboard", name: "Chalkboard", description: "Chalk texture on green board with handwritten feel", preview: "🖍️", defaultPaletteId: "forest-emerald" },
 ];
 
 export type ThemeId = (typeof themes)[number]["id"];

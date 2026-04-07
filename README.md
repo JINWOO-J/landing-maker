@@ -1,20 +1,20 @@
 # Build Landing Page
 
-> Mix and match 31 themes × 38 color palettes in real-time to explore landing page designs — built with Next.js
+> Mix and match 46 themes × 50 color palettes in real-time to explore landing page designs — built with Next.js
 
-🔗 **Demo:** `https://jinwoo-j.github.io/landing-maker/`
+🔗 **Demo:** `https://<username>.github.io/<repo-name>/`
 
 ---
 
 ## Overview
 
-**Themes** (layout & animation) and **color palettes** are fully decoupled, so you can freely mix and match any combination.
+**Themes** (layout & animation) and **color palettes** are fully decoupled — mix and match any combination freely.
 Switch themes and colors instantly from the right-side control panel, and hit **Copy Prompt** to generate an AI design prompt for the current combination.
 
 ## Features
 
-- ✅ **31 Themes** — Voxel 3D, Glassmorphism, Neon Cyberpunk, Synthwave, Art Deco, and more
-- ✅ **38 Color Palettes** — Dark / Light / Vibrant categories
+- ✅ **46 Themes** — Voxel 3D, Glassmorphism, Neubrutalism, Synthwave, Art Deco, and more
+- ✅ **50 Color Palettes** — Dark / Light / Vibrant categories
 - ✅ **Real-time Switching** — Instant theme & palette changes via the side panel
 - ✅ **Copy Prompt** — Export current theme + palette as an AI design prompt
 - ✅ **Three.js Voxel 3D** — Interactive 3D voxel world theme
@@ -32,89 +32,41 @@ The prompt includes the theme's visual style description and all 8 palette color
 
 ---
 
-## Themes (31)
+## Themes (46)
 
 ### 🧊 3D / Interactive
-
-| Theme | Description |
-|-------|-------------|
-| Voxel 3D | Interactive 3D voxel world with Three.js |
-| Particles | Floating particle system with connecting lines |
-| Isometric | Isometric grid with geometric shapes |
+Voxel 3D · Particles · Isometric
 
 ### 🌈 Glass / Gradient / Morphism
-
-| Theme | Description |
-|-------|-------------|
-| Glassmorphism | Frosted glass with depth and blur effects |
-| Gradient Mesh | Vibrant gradient blobs and organic shapes |
-| Neumorphism | Soft shadows and embossed surfaces |
-| Aurora Borealis | Northern lights with ethereal glow animations |
-| Hologram | Sci-fi holographic projections with flicker |
+Glassmorphism · Gradient Mesh · Neumorphism · Aurora Borealis · Hologram · Claymorphism · Noise Gradient · Liquid
 
 ### 🌃 Cyber / Retro
-
-| Theme | Description |
-|-------|-------------|
-| Neon Cyberpunk | Dark neon glow with cyberpunk aesthetics |
-| Synthwave | 80s retro sunset with neon grid and chrome |
-| Retro Pixel | 8-bit pixel art with CRT vibes |
-| Matrix Rain | Falling code rain with green phosphor glow |
-| Cassette | Retro mixtape with VU meters and tape reels |
-| Terminal | Hacker terminal with monospace aesthetics |
+Neon Cyberpunk · Synthwave · Retro Pixel · Matrix Rain · Cassette · Terminal · Vaporwave · Y2K
 
 ### 🎨 Art / Classic
-
-| Theme | Description |
-|-------|-------------|
-| Art Deco | 1920s geometric elegance with gold accents |
-| Stained Glass | Colorful mosaic panels with lead-line borders |
-| Marble | Elegant marble veins with gold accents |
-| Watercolor | Soft watercolor washes on paper texture |
-| Origami | Paper fold aesthetics with soft creases |
-| Newspaper | Classic editorial layout with serif typography |
+Art Deco · Stained Glass · Marble · Watercolor · Origami · Newspaper · Collage · Dark Academia · Grain Film
 
 ### 🔬 Tech / Science
-
-| Theme | Description |
-|-------|-------------|
-| Blueprint | Technical blueprint with grid lines and wireframes |
-| Circuit Board | PCB traces, IC chips, and signal paths |
-| DNA Helix | Biotech double helix with molecular nodes |
-| Constellation | Star maps with connecting constellation lines |
+Blueprint · Circuit Board · DNA Helix · Constellation
 
 ### 🏔️ Nature / Landscape
+Topography · Coral Reef · Sand Dunes · Zen · Chalkboard
 
-| Theme | Description |
-|-------|-------------|
-| Topography | Contour map lines with elevation markers |
-| Coral Reef | Underwater coral branches with floating bubbles |
-| Sand Dunes | Desert landscape with warm golden gradients |
-| Zen | Minimalist Japanese-inspired calm aesthetics |
-
-### ✨ Minimal / Geometric
-
-| Theme | Description |
-|-------|-------------|
-| Minimal Clean | Clean typography with generous whitespace |
-| Geometric | Abstract geometric shapes and patterns |
-| Brutalist | Raw, bold typography with hard edges |
+### ✨ Minimal / Geometric / Typography
+Minimal Clean · Geometric · Brutalist · Neubrutalism · Bento Grid · Bauhaus · Kinetic Type · Parallax Depth · Dopamine
 
 ---
 
-## Palettes (38)
+## Palettes (50)
 
-### 🌙 Dark (19)
+### 🌙 Dark (24)
+Indigo Rose · Violet Pink · Cyan Magenta · Warm Earth · Arctic Cyan · Ocean Deep · Sunset Blaze · Midnight Gold · Forest Emerald · Lava · Neon Lime · Sakura · Copper Rust · Blood Moon · Deep Space · Charcoal Amber · Ice Storm · Wine Velvet · Jungle · Dark Scholar · Chalk Green · Film Sepia · Matrix Green
 
-Indigo Rose · Violet Pink · Cyan Magenta · Warm Earth · Arctic Cyan · Ocean Deep · Sunset Blaze · Midnight Gold · Forest Emerald · Lava · Neon Lime · Sakura · Copper Rust · Blood Moon · Deep Space · Charcoal Amber · Ice Storm · Wine Velvet · Jungle
+### ☀️ Light (16)
+Monochrome · Purple Teal · Frost · Lavender Dream · Mint Fresh · Peach Cream · Warm Sand · Rose Garden · Sky Blue · Cream Cocoa · Slate Teal · Clay Pastel · Newspaper Ink · Dopamine Burst · Bauhaus Primary · Neubrutalist
 
-### ☀️ Light (11)
-
-Monochrome · Purple Teal · Frost · Lavender Dream · Mint Fresh · Peach Cream · Warm Sand · Rose Garden · Sky Blue · Cream Cocoa · Slate Teal
-
-### 🎆 Vibrant (8)
-
-Candy Pop · Electric Blue · Synthwave Pink · Toxic Green · Royal Purple · Bubblegum · Aurora Green · Neon Orange
+### 🎆 Vibrant (10)
+Candy Pop · Electric Blue · Synthwave Pink · Toxic Green · Royal Purple · Bubblegum · Aurora Green · Neon Orange · Y2K Chrome · Vaporwave Sunset
 
 ---
 
@@ -171,8 +123,8 @@ src/
 │   └── shared/               # CTA, Pricing, Stats (shared sections)
 ├── lib/
 │   ├── site-config.ts        # Site content (text, pricing, stats)
-│   ├── theme-registry.ts     # Theme definitions
-│   └── color-palettes.ts     # Color palette definitions
+│   ├── theme-registry.ts     # 46 theme definitions
+│   └── color-palettes.ts     # 50 color palette definitions
 └── themes/
     ├── types.ts              # ThemeDefinition, ThemeColors types
     └── <theme-name>/         # Per-theme directory
@@ -206,33 +158,9 @@ Key design:
 
 ## Adding a Theme
 
-1. Create `src/themes/<new-theme>/` directory.
-
-2. Add 3 files:
-
-```typescript
-// index.ts
-import type { ThemeDefinition } from "@/themes/types";
-
-const myTheme: ThemeDefinition = {
-  id: "my-theme",
-  name: "My Theme",
-  description: "Theme description",
-  preview: "🎯",
-  defaultPaletteId: "indigo-rose",
-};
-
-export default myTheme;
-```
-
-```typescript
-// HeroSection.tsx — Hero area component
-// FeatureCard.tsx — Feature card component (implements FeatureCardProps)
-```
-
-3. Register in `src/lib/theme-registry.ts` `themes` array.
-
-4. Add dynamic imports in `src/app/page.tsx` for `heroSections` and `featureCards`.
+1. Create `src/themes/<new-theme>/` with 3 files: `index.ts`, `HeroSection.tsx`, `FeatureCard.tsx`
+2. Register in `src/lib/theme-registry.ts`
+3. Add dynamic imports in `src/app/page.tsx`
 
 ## Adding a Palette
 
