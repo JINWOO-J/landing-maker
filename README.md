@@ -107,8 +107,6 @@ A GitHub Actions workflow (`.github/workflows/deploy.yml`) is included. Pushing 
 - `NEXT_PUBLIC_BASE_PATH` is set automatically to the repo name in the workflow.
 - The `out/` directory is uploaded to GitHub Pages.
 
-Your site will be live at `https://<username>.github.io/<repo-name>/`.
-
 ## Project Structure
 
 ```
