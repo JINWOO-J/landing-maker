@@ -2,7 +2,7 @@
 
 > Mix and match 46 themes × 50 color palettes in real-time to explore landing page designs — built with Next.js
 
-🔗 **Demo:** `https://<username>.github.io/<repo-name>/`
+🔗 **Demo:** `https://jinwoo-j.github.io/landing-maker`
 
 ---
 
